@@ -1,0 +1,63 @@
+# .gitignore
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.ipynb_checkpoints/
+data/
+results/figures/
+
+
+# README.md (Markdown prêt à copier-coller)
+# Prévision des Ventes Fibre – Comparaison des Modèles
+
+## Contexte et Objectif
+Le secteur des télécommunications en Côte d’Ivoire connaît une transformation majeure avec l’adoption croissante de la Fibre optique et de la 4G. La capacité à anticiper les ventes constitue un avantage stratégique pour optimiser la planification, les objectifs commerciaux et la satisfaction client.
+
+Ce projet compare deux approches pour la prévision des ventes Fibre chez Orange CI :
+- Séries temporelles (ARIMA, SARIMA, Holt-Winters)
+- Machine Learning (Régression Linéaire, Random Forest, XGBoost)
+
+## Méthodologie
+1. Analyse exploratoire : tendances, saisonnalités, anomalies
+2. Prétraitement : nettoyage, transformation, création de variables
+3. Modélisation : séries temporelles et ML
+4. Évaluation : MAE, RMSE, MAPE
+5. Résultats et interprétation
+
+## Résultats clés
+- La Régression Linéaire (ML) a fourni les meilleures performances
+- Les facteurs commerciaux et marketing influencent fortement les ventes
+- Les modèles temporels restent performants mais limités face aux variables externes
+
+## Structure du repository
+```
+notebooks/             # Notebook principal avec code + sorties
+data/                  # Données utilisées
+src/                   # Scripts Python (prétraitement, modèles)
+results/               # Résultats et figures
+requirements.txt       # Bibliothèques nécessaires
+README.md              # Documentation
+.gitignore             # Fichiers à ignorer
+```
+
+## Installation & Exécution
+1. Cloner le repository
+```bash
+git clone https://github.com/ton-utilisateur/ton-repo.git
+cd ton-repo
+```
+2. Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
+3. Lancer le notebook
+- Ouvrir `ML.ipynb`
+
+## Auteure
+Raoufa Touré
+
+## Perspectives
+- Modèle Deep Learning (LSTM)
+- Dashboard interactif Streamlit
+- Automatisation des prévisions via API
