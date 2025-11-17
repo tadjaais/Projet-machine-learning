@@ -126,8 +126,8 @@ Les modèles ARIMA/SARIMA restent performants mais présentent des limitations l
 ⚙️ Installation & Exécution
 
 1️⃣ Cloner le projet
-git clone https://github.com/ton-utilisateur/ton-repo.git
-cd ton-repo
+gh repo clone tadjaais/Projet-machine-learning
+cd Projet-machine-learning
 
 2️⃣ Installer les dépendances
 pip install -r requirements.txt
