@@ -4,9 +4,8 @@ Projet de Data Science appliqué au secteur des télécommunications en Côte d�
 
 🎯 Contexte et Objectif
 
-Le secteur des télécommunications en Côte d’Ivoire connaît une transformation majeure, portée par la digitalisation et l’adoption croissante de la Fibre optique et de la 4G. 
-Dans ce contexte de forte concurrence, la capacité à anticiper les ventes constitue un levier stratégique essentiel pour :
-- optimiser la planification,
+Le secteur des télécommunications en Côte d’Ivoire connaît une transformation majeure, portée par la digitalisation et l’adoption croissante de la Fibre optique et de la 4G. Dans ce contexte de forte concurrence, la capacité à anticiper les ventes constitue un levier stratégique essentiel pour :
+-optimiser la planification,
 -ajuster les objectifs commerciaux,
 -mieux allouer les ressources,
 -orienter les actions marketing,
