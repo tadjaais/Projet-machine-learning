@@ -109,17 +109,17 @@ Les modèles ARIMA/SARIMA restent performants mais présentent des limitations l
 
 .
 ├── notebooks/
-│   └── Prevision_Ventes_Fibre.ipynb      # Notebook principal (code + sorties)
+│   └── ML.ipynb                          # Notebook principal (code + sorties)
 ├── data/
-│   └── ventes_fibre.csv                  # Données (si légères / anonymisées)
+│   └── base.xlsx                         # Données source (non versionnées, à fournir localement)
 ├── src/
 │   ├── preprocessing.py                  # Pipeline de préparation
 │   ├── timeseries_models.py              # ARIMA, SARIMA, Holt-Winters
 │   └── ml_models.py                      # Linear Regression, Random Forest, XGBoost
 ├── results/
-│   ├── figures/                          # Graphiques générés
-│   └── predictions.csv                   # Sorties des modèles
+│   └── figures/                          # Graphiques générés (non versionnés)
 ├── requirements.txt                       # Bibliothèques nécessaires
+├── .gitignore                             # Fichiers à ignorer
 └── README.md                              # Documentation
 
 
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 
 3️⃣ Lancer le notebook
 Ouvrir :
-ML.ipynb
+notebooks/ML.ipynb
 
 📦 Technologies utilisées
 
@@ -149,8 +149,6 @@ Scikit-learn
 Statsmodels
 
 XGBoost
-
-Prophet
 
 ✍️ Auteure
 
